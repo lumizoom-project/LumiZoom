@@ -7,4 +7,6 @@ obj/
 *.log
 *.zip
 *.exe
+.lumizoom_github_ed25519
+.lumizoom_github_ed25519.pub
 !.github/
