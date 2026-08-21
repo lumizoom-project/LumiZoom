@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 600" role="img" aria-labelledby="title desc">
+  <title id="title">LumiZoom</title>
+  <desc id="desc">Symbol lupy z literą L oraz nazwa LumiZoom.</desc>
+  <defs>
+    <linearGradient id="rimH" x1="130" y1="80" x2="500" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#526986"/><stop offset=".45" stop-color="#203754"/><stop offset="1" stop-color="#07152f"/></linearGradient>
+    <radialGradient id="lensH" cx="67%" cy="32%" r="76%"><stop stop-color="#54e7ff"/><stop offset=".32" stop-color="#19bde9"/><stop offset=".72" stop-color="#1677bd"/><stop offset="1" stop-color="#15528f"/></radialGradient>
+    <linearGradient id="handleH" x1="430" y1="430" x2="585" y2="585" gradientUnits="userSpaceOnUse"><stop stop-color="#526986"/><stop offset=".4" stop-color="#243b5a"/><stop offset="1" stop-color="#07152f"/></linearGradient>
+    <linearGradient id="wordH" x1="650" y1="190" x2="1680" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#102746"/><stop offset=".58" stop-color="#155a97"/><stop offset="1" stop-color="#18aeda"/></linearGradient>
+    <filter id="shadowH" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="-5" dy="13" stdDeviation="11" flood-color="#061433" flood-opacity=".28"/></filter>
+    <filter id="letterShadowH" x="-30%" y="-30%" width="180%" height="180%"><feDropShadow dx="-5" dy="7" stdDeviation="5" flood-color="#07254c" flood-opacity=".5"/></filter>
+  </defs>
+
+  <g filter="url(#shadowH)">
+    <path d="M432 418 480 466 449 497 401 449Z" fill="#0b1d3b"/>
+    <path d="M466 461Q482 445 499 461L575 537Q591 553 575 570L552 593Q535 609 518 592L442 516Q426 500 442 483Z" fill="url(#handleH)" stroke="#07142d" stroke-width="9"/>
+    <circle cx="284" cy="270" r="232" fill="url(#rimH)" stroke="#142846" stroke-width="4"/>
+    <circle cx="284" cy="270" r="197" fill="#071633"/>
+    <circle cx="284" cy="270" r="184" fill="url(#lensH)" stroke="#405d7e" stroke-width="6"/>
+    <path d="M289 122C341 91 417 113 450 171C475 216 462 284 421 323C391 352 352 355 317 344C348 306 350 249 332 200C320 168 304 142 289 122Z" fill="#fff" opacity=".25"/>
+    <circle cx="405" cy="190" r="21" fill="#fff" opacity=".94"/>
+    <path d="M200 147H268V346H393V412H200Z" fill="#f7feff" filter="url(#letterShadowH)"/>
+  </g>
+
+  <!-- Atkinson Hyperlegible jest krojem podstawowym; Segoe UI i Arial zapewniają bezpieczny wygląd zastępczy. -->
+  <text x="640" y="375" fill="url(#wordH)"
+        font-family="Atkinson Hyperlegible, Segoe UI Variable Display, Segoe UI, Arial, sans-serif"
+        font-size="218" font-weight="700" letter-spacing="-6">LumiZoom</text>
+</svg>

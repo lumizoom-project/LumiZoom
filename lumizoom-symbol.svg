@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Symbol LumiZoom</title>
+  <desc id="desc">Granatowa lupa z niebieską soczewką i białą literą L.</desc>
+  <defs>
+    <linearGradient id="rim" x1="180" y1="120" x2="770" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="#526986"/><stop offset=".45" stop-color="#203754"/><stop offset="1" stop-color="#07152f"/></linearGradient>
+    <radialGradient id="lens" cx="67%" cy="32%" r="76%"><stop stop-color="#54e7ff"/><stop offset=".32" stop-color="#19bde9"/><stop offset=".72" stop-color="#1677bd"/><stop offset="1" stop-color="#15528f"/></radialGradient>
+    <linearGradient id="handle" x1="702" y1="716" x2="944" y2="970" gradientUnits="userSpaceOnUse"><stop stop-color="#526986"/><stop offset=".38" stop-color="#243b5a"/><stop offset="1" stop-color="#07152f"/></linearGradient>
+    <linearGradient id="letter" x1="330" y1="250" x2="610" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#edfaff"/></linearGradient>
+    <linearGradient id="shine" x1="500" y1="190" x2="720" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity=".58"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="-8" dy="22" stdDeviation="18" flood-color="#061433" flood-opacity=".3"/></filter>
+    <filter id="letterShadow" x="-30%" y="-30%" width="180%" height="180%"><feDropShadow dx="-9" dy="12" stdDeviation="8" flood-color="#07254c" flood-opacity=".52"/></filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M714 704 799 789 744 844 659 759Z" fill="#0b1d3b"/>
+    <path d="M770 778Q796 750 824 774L953 903Q979 930 955 959L914 999Q885 1026 857 998L730 870Q704 844 731 816Z" fill="url(#handle)" stroke="#07142d" stroke-width="15"/>
+    <path d="M790 790Q804 778 820 791L929 900" fill="none" stroke="#7185a0" stroke-width="11" stroke-linecap="round" opacity=".42"/>
+    <circle cx="469" cy="455" r="397" fill="url(#rim)" stroke="#142846" stroke-width="5"/>
+    <circle cx="469" cy="455" r="337" fill="#071633"/>
+    <circle cx="469" cy="455" r="315" fill="url(#lens)" stroke="#405d7e" stroke-width="10"/>
+    <path d="M477 201C564 148 695 185 752 288C794 365 772 482 702 549C651 598 584 603 525 584C577 518 581 423 551 340C531 285 503 242 477 201Z" fill="url(#shine)"/>
+    <circle cx="675" cy="319" r="36" fill="#fff" opacity=".94"/>
+    <path d="M326 245H442V586H657V700H326Z" fill="url(#letter)" filter="url(#letterShadow)"/>
+    <path d="M342 258H429M342 682H638" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+  </g>
+</svg>
