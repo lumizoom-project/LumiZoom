@@ -1,5 +1,5 @@
 #define MyAppName "LumiZoom"
-#define MyAppVersion "1.0.0 RC1"
+#define MyAppVersion "1.0.0 RC2"
 #define MyAppPublisher "Łukasz Kuczek"
 #define MyAppExeName "LumiZoom.exe"
 
@@ -17,8 +17,8 @@ DisableProgramGroupPage=yes
 PrivilegesRequired=admin
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
-OutputDir=..\..\outputs\LUMIZOOM-RC1-FINAL
-OutputBaseFilename=LumiZoom-1.0-RC1-Setup-STANDARD-v6
+OutputDir=..\..\outputs\LUMIZOOM-RC2-TEST
+OutputBaseFilename=LumiZoom-1.0-RC2-Setup-SelfContained-x64
 SetupIconFile=..\LumiZoom\assets\LumiZoom.ico
 UninstallDisplayIcon={app}\LumiZoom.ico
 Compression=lzma2/max
@@ -27,11 +27,11 @@ WizardStyle=modern
 CloseApplications=yes
 CloseApplicationsFilter=LumiZoom.exe
 AppMutex=Local\LumiZoom.SingleInstance
-VersionInfoVersion=1.0.0.0
+VersionInfoVersion=1.0.0.2
 VersionInfoCompany={#MyAppPublisher}
 VersionInfoDescription=LumiZoom — instalator
 VersionInfoProductName={#MyAppName}
-VersionInfoProductVersion=1.0.0.0
+VersionInfoProductVersion=1.0.0.2
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -47,10 +47,7 @@ polish.AlreadyInstalled=LumiZoom w wersji %1 jest już zainstalowany.%n%nCzy chc
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
 [Files]
-Source: "..\LumiZoom\bin\Release\net8.0-windows\LumiZoom.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\LumiZoom\bin\Release\net8.0-windows\LumiZoom.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\LumiZoom\bin\Release\net8.0-windows\LumiZoom.deps.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\LumiZoom\bin\Release\net8.0-windows\LumiZoom.runtimeconfig.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\LumiZoom\bin\Release\net8.0-windows\win-x64\publish\LumiZoom.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\LumiZoom\assets\LumiZoom.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "Prepare-LumiZoom.ps1"; DestDir: "{app}"; Flags: ignoreversion
 
