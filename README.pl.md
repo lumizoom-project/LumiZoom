@@ -23,6 +23,22 @@ LumiZoom to bezpłatna lupa ekranowa typu live zoom dla systemu Windows, udostę
 - awaryjne wyłączenie powiększenia klawiszem `Esc`;
 - zabezpieczenie przed uruchomieniem kilku kopii programu.
 
+## Zrzuty ekranu
+
+Poniższe zrzuty pokazują angielską wersję okna ustawień — skupiają się na aplikacji, a nie na całym pulpicie.
+
+<p align="center">
+  <img src="store-listing/en-US/1366px/01-main.png" alt="Główne ustawienia powiększenia" width="48%">
+  <img src="store-listing/en-US/1366px/02-cursor.png" alt="Ustawienia podświetlania kursora" width="48%">
+</p>
+<p align="center">
+  <img src="store-listing/en-US/1366px/03-program.png" alt="Ustawienia programu i uruchamiania" width="48%">
+  <img src="store-listing/en-US/1366px/04-appearance.png" alt="Ustawienia wyglądu" width="48%">
+</p>
+<p align="center">
+  <img src="store-listing/en-US/1366px/05-about.png" alt="Informacje o LumiZoom" width="48%">
+</p>
+
 ## Pobieranie
 
 ### [Pobierz LumiZoom 1.0 RC2 dla Windows 10/11 (64-bit)](https://github.com/lumizoom-project/LumiZoom/raw/refs/heads/main/dist/LumiZoom-1.0-RC2-Setup.exe)

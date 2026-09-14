@@ -23,6 +23,22 @@ LumiZoom is a free, open-source live screen magnifier for Windows. It is designe
 - emergency `Esc` key to leave magnification;
 - single-instance protection.
 
+## Screenshots
+
+The screenshots show the English settings window; they focus on the app itself, not the full desktop.
+
+<p align="center">
+  <img src="store-listing/en-US/1366px/01-main.png" alt="Main magnification settings" width="48%">
+  <img src="store-listing/en-US/1366px/02-cursor.png" alt="Cursor highlighting settings" width="48%">
+</p>
+<p align="center">
+  <img src="store-listing/en-US/1366px/03-program.png" alt="Startup and program settings" width="48%">
+  <img src="store-listing/en-US/1366px/04-appearance.png" alt="Appearance settings" width="48%">
+</p>
+<p align="center">
+  <img src="store-listing/en-US/1366px/05-about.png" alt="About LumiZoom" width="48%">
+</p>
+
 ## Download
 
 ### [Download LumiZoom 1.0 RC2 for Windows 10/11 (64-bit)](https://github.com/lumizoom-project/LumiZoom/raw/refs/heads/main/dist/LumiZoom-1.0-RC2-Setup.exe)
