@@ -8,6 +8,10 @@
 
 LumiZoom to bezpłatna lupa ekranowa typu live zoom dla systemu Windows, udostępniana jako otwarte oprogramowanie. Powstała przede wszystkim z myślą o osobach niedowidzących i starszych użytkownikach komputera, którzy potrzebują prostego powiększania całego pulpitu bez stale widocznego okna lupy.
 
+## Lupa ekranowa stworzona z myślą o codziennej dostępności
+
+Niektóre narzędzia do powiększania ekranu są projektowane głównie z myślą o prezentacjach. Podczas codziennej pracy menu Windows może zostać powiększone drugi raz, przez co staje się trudne do odczytania i obsługi. LumiZoom powstał z myślą o osobach niedowidzących, które potrzebują wygodnej lupy do pracy przy komputerze. Zapewnia spójne powiększenie pulpitu, tak aby menu Start i pozostałe menu systemowe pozostawały czytelne.
+
 ## Najważniejsze możliwości
 
 - płynne włączanie i wyłączanie powiększenia całego ekranu;
@@ -41,16 +45,19 @@ Poniższe zrzuty pokazują angielską wersję okna ustawień — skupiają się 
 
 ## Pobieranie
 
-### [Pobierz LumiZoom 1.0 RC2 dla Windows 10/11 (64-bit)](https://github.com/lumizoom-project/LumiZoom/raw/refs/heads/main/dist/LumiZoom-1.0-RC2-Setup.exe)
+### [Pobierz najnowsze wydanie LumiZoom dla Windows 10/11 (64-bit)](https://github.com/lumizoom-project/LumiZoom/releases/latest)
 
 Zalecany instalator jest samowystarczalny i nie wymaga osobnej instalacji .NET.
 
-- [Instalator RC2 — EXE](https://github.com/lumizoom-project/LumiZoom/raw/refs/heads/main/dist/LumiZoom-1.0-RC2-Setup.exe)
-- [Paczka RC2 — ZIP](https://github.com/lumizoom-project/LumiZoom/raw/refs/heads/main/dist/LumiZoom-1.0-RC2-Setup.zip)
+- [Najnowsze wydanie i instalator](https://github.com/lumizoom-project/LumiZoom/releases/latest)
 - [Wszystkie wydania i starsze wersje](https://github.com/lumizoom-project/LumiZoom/releases)
 - [Sumy kontrolne SHA-256](dist/SHA256SUMS.txt)
 
-Windows może ostrzegać przed wczesnymi wydaniami bez publicznie zaufanego podpisu. Instalator RC tworzy lokalnie zaufany certyfikat wymagany przez Windows UIAccess, dzięki czemu kliknięcia myszy są poprawnie mapowane podczas powiększenia.
+Windows może ostrzegać przed wczesnymi wydaniami bez publicznie zaufanego podpisu. Instalator tworzy lokalnie zaufany certyfikat wymagany przez Windows UIAccess, dzięki czemu kliknięcia myszy są poprawnie mapowane podczas powiększenia.
+
+## Polityka podpisywania kodu
+
+Wydania są budowane z kodu źródłowego i skryptów budowania znajdujących się w tym repozytorium. Tagi wydań i sumy kontrolne publikujemy na GitHubie. Do czasu uzyskania publicznie zaufanego certyfikatu podpisu Windows może wyświetlać ostrzeżenie SmartScreen dla pobranych instalatorów. LumiZoom nie wymaga wyłączania zabezpieczeń Windows. Pytania dotyczące podpisu można zgłaszać w [GitHub Issues](https://github.com/lumizoom-project/LumiZoom/issues).
 
 ## Wymagania
 
