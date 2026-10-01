@@ -49,7 +49,7 @@ The screenshots show the English settings window; they focus on the app itself, 
 
 The recommended installer is self-contained and does not require .NET to be installed separately.
 
-- [Latest release and installer](https://github.com/lumizoom-project/LumiZoom/releases/latest)
+- [Download Windows installer (RC2, 64-bit)](https://github.com/lumizoom-project/LumiZoom/releases/download/v1.0.0-rc.2/LumiZoom-1.0-RC2-Setup.exe)
 - [All releases and older versions](https://github.com/lumizoom-project/LumiZoom/releases)
 - [SHA-256 checksums](dist/SHA256SUMS.txt)
 
