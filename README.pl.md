@@ -49,7 +49,7 @@ Poniższe zrzuty pokazują angielską wersję okna ustawień — skupiają się 
 
 Zalecany instalator jest samowystarczalny i nie wymaga osobnej instalacji .NET.
 
-- [Najnowsze wydanie i instalator](https://github.com/lumizoom-project/LumiZoom/releases/latest)
+- [Pobierz instalator Windows (RC2, 64-bit)](https://github.com/lumizoom-project/LumiZoom/releases/download/v1.0.0-rc.2/LumiZoom-1.0-RC2-Setup.exe)
 - [Wszystkie wydania i starsze wersje](https://github.com/lumizoom-project/LumiZoom/releases)
 - [Sumy kontrolne SHA-256](dist/SHA256SUMS.txt)
 
