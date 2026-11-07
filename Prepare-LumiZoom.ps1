@@ -15,7 +15,7 @@ if (-not $cert) {
 }
 
 foreach ($storeName in @('Root', 'TrustedPublisher')) {
-    $store = New-Object System.Security.Cryptography.X509Certificates.X509Store($storeName, 'CurrentUser')
+    $store = New-Object System.Security.Cryptography.X509Certificates.X509Store($storeName, 'LocalMachine')
     $store.Open([System.Security.Cryptography.X509Certificates.OpenFlags]::ReadWrite)
     if (-not ($store.Certificates | Where-Object Thumbprint -eq $cert.Thumbprint)) {
         $store.Add($cert)

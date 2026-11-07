@@ -16,10 +16,10 @@
     <ApplicationIcon>assets\LumiZoom.ico</ApplicationIcon>
     <AssemblyName>LumiZoom</AssemblyName>
     <RootNamespace>LumiZoom</RootNamespace>
-    <Version>1.0.0-rc.2</Version>
+    <Version>1.0.0-rc.4</Version>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.2</FileVersion>
-    <InformationalVersion>1.0.0-rc.2</InformationalVersion>
+    <FileVersion>1.0.0.4</FileVersion>
+    <InformationalVersion>1.0.0-rc.4</InformationalVersion>
     <Company>Łukasz Kuczek</Company>
     <Product>LumiZoom</Product>
     <Description>LumiZoom — bezpłatna lupa ekranowa</Description>
